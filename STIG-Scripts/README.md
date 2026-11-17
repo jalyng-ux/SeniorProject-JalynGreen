@@ -1,23 +1,30 @@
 --- STIG Compliance ---
 
 ## Project Overview: 
-- 50 PowerShell scripts to check Windows security settings based on STIG guidelines.
-- Each script checks a specific security setting & displays whether it is compliant or non-compliant & recommendation if changes are needed
-- The scripts do not automatically change any Windows setting.
+- 50 PowerShell scripts created to check Windows security settings based on STIG guidelines.
+- Each script reports whether a setting is Compliant, Non-Compliant, or Unknown.
+- Scripts only check and report settings without making changes.
 
 ## Progress:
-- 25 STIG scripts completed & updated
-- 10 additional STIG scripts planned
-- Goal: 50 STIG scripts
+- All 50 PowerShell scripts completed.
+- Master script completed and tested.
+- Test plan completed.
 
 ## Testing:
-- Each script will be tested on VM using powershell to make sure that it checks for the correct setting & displays the correct results.
+- Scripts were tested on a Windows virtual machine using PowerShell.
+- The master script runs all 50 checks and generates a summary report.
 
 ## Compliance Summary:
-- Summary script will be created to run all 50 checks & display results.
-- Results will be saved to a TXT file for review. 
+- Compliant: 25
+- Non-Compliant: 23
+- Unknown: 2
+- Total: 50
 
 ## Files:
-- STIG PowerShell scripts (.ps1)
-- Compliance summary scripts (.ps1) - planned to complete
-- Compliance report (.txt) - planned to complete 
+- 50 PowerShell scripts (.ps1)
+- STIG_TestPlanMasterScript.ps1
+- STIG_SummaryReport.txt
+- Test Plan & Project Update.docx
+
+## Next Steps 
+- Review the 23 Non-Compliant and 2 Unknown results during CSCI 499 in Spring 2027.
