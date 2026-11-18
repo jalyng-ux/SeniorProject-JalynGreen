@@ -1,12 +1,12 @@
 # Network Security Evaluation Using DoD STIG Guidelines
-Jalyn Green  
-Charleston Southern University  
-Cybersecurity
+- Jalyn Green  
+- Charleston Southern University  
+- Cybersecurity
 
 ## Project Overview
-This project evaluates Windows system security using Department of Defense (DoD) Security Technical Implementation Guides (STIGs).
+My project evaluates Windows system security using Department of Defense (DoD) Security Technical Implementation Guides (STIGs).
 
-PowerShell scripts are used to check security settings, report compliance results, and provide recommendations. The scripts only check and report results; they do not change system settings.
+The PowerShell scripts are used to check security settings, report compliance results, and provide recommendations. The scripts only check and report results; they do not change system settings.
 
 ## Project Objectives
 - Develop 50 PowerShell STIG compliance checks.
@@ -20,4 +20,4 @@ PowerShell scripts are used to check security settings, report compliance result
 - **drafts/** – Previous drafts and archived project documents.
 
 ## Project Status
-Completed 50 STIG compliance checks and organized the supporting documentation for CSCI 498.
+- Completed all 50 STIG compliance checks and organized documentation for CSCI 498.
